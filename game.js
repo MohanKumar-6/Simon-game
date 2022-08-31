@@ -37,6 +37,7 @@ function animatePress(currentColour){
 // keyboard key detection
 
 $(".startButton").click(function(){
+  animatePress("startButton");
   if(!gameStarted){
     $("#level-title").text("Level "+level);
     nextSequence();
